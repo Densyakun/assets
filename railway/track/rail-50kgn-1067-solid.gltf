@@ -26,6 +26,11 @@
         {
             "mesh" : 0,
             "name" : "R",
+            "scale" : [
+                -1,
+                1,
+                1
+            ],
             "translation" : [
                 0.5335000157356262,
                 0,
@@ -79,7 +84,7 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 60,
+            "count" : 64,
             "max" : [
                 0.031000003218650818,
                 0,
@@ -95,13 +100,13 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 60,
+            "count" : 64,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 60,
+            "count" : 64,
             "type" : "VEC2"
         },
         {
@@ -114,23 +119,23 @@
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 720,
+            "byteLength" : 768,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 720,
-            "byteOffset" : 720
+            "byteLength" : 768,
+            "byteOffset" : 768
         },
         {
             "buffer" : 0,
-            "byteLength" : 480,
-            "byteOffset" : 1440
+            "byteLength" : 512,
+            "byteOffset" : 1536
         },
         {
             "buffer" : 0,
             "byteLength" : 216,
-            "byteOffset" : 1920
+            "byteOffset" : 2048
         }
     ],
     "samplers" : [
@@ -141,7 +146,7 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 2136,
+            "byteLength" : 2264,
             "uri" : "rail-50kgn-1067-solid.bin"
         }
     ]
