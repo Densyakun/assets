@@ -53,7 +53,7 @@
     ],
     "meshes" : [
         {
-            "name" : "rail-50kgn",
+            "name" : "rail-50n",
             "primitives" : [
                 {
                     "attributes" : {
@@ -84,7 +84,7 @@
         {
             "bufferView" : 0,
             "componentType" : 5126,
-            "count" : 64,
+            "count" : 20,
             "max" : [
                 0.031000003218650818,
                 0,
@@ -100,42 +100,42 @@
         {
             "bufferView" : 1,
             "componentType" : 5126,
-            "count" : 64,
+            "count" : 20,
             "type" : "VEC3"
         },
         {
             "bufferView" : 2,
             "componentType" : 5126,
-            "count" : 64,
+            "count" : 20,
             "type" : "VEC2"
         },
         {
             "bufferView" : 3,
             "componentType" : 5123,
-            "count" : 108,
+            "count" : 30,
             "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
         {
             "buffer" : 0,
-            "byteLength" : 768,
+            "byteLength" : 240,
             "byteOffset" : 0
         },
         {
             "buffer" : 0,
-            "byteLength" : 768,
-            "byteOffset" : 768
+            "byteLength" : 240,
+            "byteOffset" : 240
         },
         {
             "buffer" : 0,
-            "byteLength" : 512,
-            "byteOffset" : 1536
+            "byteLength" : 160,
+            "byteOffset" : 480
         },
         {
             "buffer" : 0,
-            "byteLength" : 216,
-            "byteOffset" : 2048
+            "byteLength" : 60,
+            "byteOffset" : 640
         }
     ],
     "samplers" : [
@@ -146,8 +146,8 @@
     ],
     "buffers" : [
         {
-            "byteLength" : 2264,
-            "uri" : "rail-50kgn-1067-solid.bin"
+            "byteLength" : 700,
+            "uri" : "rail-50n-1067.bin"
         }
     ]
 }
